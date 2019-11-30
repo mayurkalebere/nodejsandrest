@@ -1,0 +1,16 @@
+CREATE DATABASE restful_db;
+
+CREATE TABLE movies(
+movie_name varchar(200) PRIMARY KEY,
+movie_director VARCHAR(200),
+movie_budget INT(11) 
+);
+
+select * from movies;
+
+
+INSERT INTO movies VALUES
+('lagan','AGowarikar',500000),
+('3 idiots','Rajkumar hirani',1000000);
+
+	
